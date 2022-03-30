@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b_graph"
+    app:startDestination="@id/b1_Fragment">
+
+    <fragment
+        android:id="@+id/b1_Fragment"
+        android:name="com.example.myapplication.backstep.B1_Fragment"
+        android:label="fragment_b1_"
+        tools:layout="@layout/fragment_b1_" >
+        <action
+            android:id="@+id/action_b1_Fragment_to_b2_Fragment"
+            app:destination="@id/b2_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b2_Fragment"
+        android:name="com.example.myapplication.backstep.B2_Fragment"
+        android:label="fragment_b2_"
+        tools:layout="@layout/fragment_b2_" >
+        <action
+            android:id="@+id/action_b2_Fragment_to_b3_Fragment"
+            app:destination="@id/b3_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b3_Fragment"
+        android:name="com.example.myapplication.backstep.B3_Fragment"
+        android:label="fragment_b3_"
+        tools:layout="@layout/fragment_b3_" >
+        <action
+            android:id="@+id/action_b3_Fragment_to_b4_Fragment"
+            app:destination="@id/b4_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b4_Fragment"
+        android:name="com.example.myapplication.backstep.B4_Fragment"
+        android:label="fragment_b4_"
+        tools:layout="@layout/fragment_b4_" >
+        <action
+            android:id="@+id/action_b4_Fragment_to_b5_Fragment"
+            app:destination="@id/b5_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b5_Fragment"
+        android:name="com.example.myapplication.backstep.B5_Fragment"
+        android:label="fragment_b5_"
+        tools:layout="@layout/fragment_b5_" >
+        <action
+            android:id="@+id/action_b5_Fragment_to_b6_Fragment"
+            app:destination="@id/b6_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/b6_Fragment"
+        android:name="com.example.myapplication.backstep.B6_Fragment"
+        android:label="fragment_b6_"
+        tools:layout="@layout/fragment_b6_" >
+        <action
+            android:id="@+id/action_b6_Fragment_to_b1_Fragment"
+            app:destination="@id/b1_Fragment" />
+    </fragment>
+</navigation>

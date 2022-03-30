@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_new.A3_Fragment"
+    android:background="#96FF3B">
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="202dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:text="Third"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="127dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="25dp"
+        android:textSize="30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="25dp"
+        android:background="#3FBEF8"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:text="Go to Back" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"/>
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/lav1"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:lottie_rawRes="@raw/loading" />-->
+
+
+</FrameLayout>

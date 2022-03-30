@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_new_graph"
+    app:startDestination="@id/peloFragment">
+
+    <fragment
+        android:id="@+id/peloFragment"
+        android:name="com.example.myapplication.fragment_new.A1_Fragment"
+        android:label="fragment_pelo"
+        tools:layout="@layout/fragment_a1" >
+        <action
+            android:id="@+id/action_peloFragment_to_bijoFragment"
+            app:destination="@id/bijoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bijoFragment"
+        android:name="com.example.myapplication.fragment_new.A2_Fragment"
+        android:label="fragment_bijo"
+        tools:layout="@layout/fragment_a2" >
+        <action
+            android:id="@+id/action_bijoFragment_to_tijoFragment"
+            app:destination="@id/tijoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tijoFragment"
+        android:name="com.example.myapplication.fragment_new.A3_Fragment"
+        android:label="fragment_tijo"
+        tools:layout="@layout/fragment_a3" >
+        <action
+            android:id="@+id/action_tijoFragment_to_peloFragment"
+            app:destination="@id/peloFragment" />
+    </fragment>
+</navigation>

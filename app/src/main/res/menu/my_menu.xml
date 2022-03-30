@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Menu"
+        android:id="@+id/logo"
+        android:icon="@drawable/logo"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:title="Sign up"
+                android:id="@+id/login"/>
+            <item
+                android:title="Image"
+                android:id="@+id/image"/>
+            <item
+                android:title="Camera"
+                android:id="@+id/camera"/>
+            <item
+                android:title="Settings"
+                android:id="@+id/settings"/>
+            <item
+                android:title="Exit"
+                android:id="@+id/exit"/>
+        </menu>
+    </item>
+</menu>

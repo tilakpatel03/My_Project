@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity"
+    android:background="#ffffff"
+    android:padding="30dp">
+
+<!--    <ImageView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:background="@drawable/create_account"-->
+<!--        android:layout_alignParentRight="true" />-->
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/create_account02"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:hint="First Name"
+        android:ems="20"
+        android:textSize="18dp"
+        android:textColorHint="#adb5bd"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_below="@+id/et1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="20"
+        android:textSize="18dp"
+        android:textColorHint="#adb5bd"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/black"
+        android:ems="20"
+        android:hint="Email Id"
+        android:textColor="@color/black"
+        android:textColorHint="#adb5bd"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/et3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="20"
+        android:textSize="18dp"
+        android:textColorHint="#adb5bd"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/et4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="20"
+        android:textSize="18dp"
+        android:textColorHint="#adb5bd"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/b1"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#168aad"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TV001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      Already have an account?"
+        android:textColor="#adb5bd"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=" Login here"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textColor="#223ABD"-->
+<!--        android:layout_toEndOf="@+id/TV001"-->
+<!--        android:layout_alignParentBottom="true" />-->
+
+    <Button
+        android:id="@+id/TB1"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/TV001"
+        android:text="Login here"
+        android:textColor="#223ABD"
+        android:textSize="17dp" />
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LogInActivity"
+    android:background="#ffffff"
+    android:padding="30dp">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/IV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/IV2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/test" />
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="User Id"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#adb5bd"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18dp"
+        android:layout_below="@+id/ET1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textColorHint="#adb5bd"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black" />
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:backgroundTint="#00BCD4"-->
+<!--        android:text="Log In"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_below="@+id/B2"/>-->
+
+    <Button
+        android:id="@+id/B1"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/B2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#168aad"
+        android:text=" Log in"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/B2"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ET2"
+        android:layout_below="@+id/ET2"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot password?"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/TV001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          Don't have an account?"
+        android:textColor="#adb5bd"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=" Sign up"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textColor="#223ABD"-->
+<!--        android:layout_toEndOf="@+id/TV001"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="30dp"/>-->
+
+    <Button
+        android:id="@+id/TB1"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:text="Sign up"
+        android:textSize="17dp"
+        android:textColor="#223ABD"
+        android:layout_toEndOf="@+id/TV001"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

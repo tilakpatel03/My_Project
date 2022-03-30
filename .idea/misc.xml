@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/b.xml" value="0.1375" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/button.xml" value="0.16" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/icon.xml" value="0.157" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w1240dp/activity_login01.xml" value="0.13119143239625167" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w936dp/activity_login01.xml" value="0.12739071038251365" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_bactivity.xml" value="0.22" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_biji.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_first.xml" value="0.15" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_forgot.xml" value="0.25" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login01.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_new.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_object.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_paheli.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sceond.xml" value="0.22" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_sceond_object.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_seekbar.xml" value="0.33" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_switch.xml" value="0.33" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_view_binding.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_view_binding02.xml" value="0.21" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_a1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_a2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_a3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b1_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b2_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b3_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b4_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b5_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_b6_.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_bijo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_pelo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_third.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_tijo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/tilak/AndroidStudioProjects/MyApplication/app/src/main/res/menu/my_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

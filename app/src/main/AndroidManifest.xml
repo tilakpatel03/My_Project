@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mylogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mylogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".activity.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".seekbar.Seekbar_Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".backstep.B_Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".fragment_new.SwitchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".fragment_new.NewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragment.FragmentActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LogInActivity"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".viewBinding_dataBinding.ViewBinding02Activity"
+            android:exported="false" />
+        <activity
+            android:name=".viewBinding_dataBinding.ViewBindingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".objectactivity.BijiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".objectactivity.PaheliActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_switch_explicit.SceondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_switch_explicit.FirstActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
