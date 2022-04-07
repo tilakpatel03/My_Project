@@ -4,14 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.myapplication.databinding.ActivityRegisterBinding;
+import com.example.myapplication.databinding.ActivityDashboardBinding;
 
 public class DashboardActivity extends AppCompatActivity {
-    private ActivityRegisterBinding binding;
+private ActivityDashboardBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityRegisterBinding.inflate(getLayoutInflater());
+        binding = ActivityDashboardBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
     }
 }
